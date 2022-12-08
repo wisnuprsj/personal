@@ -23,6 +23,11 @@ services:
     build:
       context: ./dockerfiles
       dockerfile: frontend.dockerfile
+    ports:
+      - "3000:3000"
+    container_name: lm-fe
+    env_file:
+      -
 
 volumes:
   data:
