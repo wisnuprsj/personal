@@ -9,3 +9,7 @@ node_modules/
 *.pem
 /*.pem
 *.pem/
+
+*.env
+/*.env
+*.env/
