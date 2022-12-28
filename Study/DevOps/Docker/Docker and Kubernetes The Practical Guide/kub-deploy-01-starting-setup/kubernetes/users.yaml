@@ -63,7 +63,7 @@ spec:
           image: wisnuprsj/kub-deploy-users:latest
           env:
             - name: MONGODB_CONNECTION_URI
-              value: "mongodb+srv://wisnuprsj:ArungJeram23!@general.oeu2s.mongodb.net/?retryWrites=true&w=majority"
+              value: "MONGODB CONN STRING"
             - name: AUTH_API_ADDRESSS
               value: "auth-service.default:3000"
           volumeMounts:
